@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <script src="./scripts/scripts.js" defer></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <div>
+        <div class="navbar-placeholder"></div>
+        <nav class="navbar flex">
+            <a href="#home"><img src="./assets/logo.png" alt="logo" class="animation"></a>
+            <i class="fa-solid fa-bars animation"></i>
+            <div class="nav-menu flex">
+                <i class="fa-solid fa-x animation"></i>
+                <a href="#home" class="animation">Home</a>
+                <a href="#about" class="animation">About</a>
+                <a href="#services" class="animation">Services</a>
+                <a href="#work" class="animation">Portfolio</a>
+                <a href="#contact" class="animation">Contact</a>
+            </div>
+            <a href="#contact" class="btn nav-btn animation">Contact</a>
+        </nav>
+    </div>
+
+    <!-- hero -->
+    <div class="hero flex" id="home">
+        <img src="./assets/Hero Image(1).png" alt="web dev">
+        <h1><span class="text-effect">I'm Emile Edwards,</span> I'm a sixthform Student</h1>
+        <a href="./assets/EmileEdwardsResume.pdf" class="hero-resume animation" target="_blank" rel="noopener noreferrer">Resume</a>
+    </div>
+
+    <!-- about -->
+    <section class="container flex" id="about">
+        <div class="container-title">
+            <h2>About Me</h2>
+            <img src="./assets/cloud_no_background-removebg-preview.png" alt="decoration">
+        </div>
+        <div class="about-sections flex">
+            <div class="about-left flex">
+                <img src="./assets/Hero Image(1).png" alt="web dev">
+            </div>
+            <div class="about-right flex">
+                <p>I am an amateur coder who loves to solve complex problems.</p>
+            </div>
+        </div>
+        <div class="about-skills">
+            <div>
+                <h3>Web Development</h3>
+                <div class="about-skill flex animation">
+                    <p>HTML & CSS</p>
+                    <hr style="width: 100%;">
+                </div>
+                <div class="about-skill flex animation">
+                    <p>Python</p>
+                    <hr style="width: 90%;">
+                </div>
+                <div class="about-skill flex animation">
+                    <p>Javascript</p>
+                    <hr style="width: 85%;">
+                </div>
+                <div class="about-skill flex animation">
+                    <p>react JS</p>
+                    <hr style="width: 75%;">
+                </div>
+            </div>
+        </div>
+        <div class="about-achievements flex">
+            <div class="about-achievement flex animation">
+                <h2 class="text-effect">2+</h2>
+                <p>Limited Years of Experience</p>
+            </div>
+            <hr>
+            <div class="about-achievement flex animation">
+                <h2 class="text-effect">9+</h2>
+                <p>Completed Projects</p>
+            </div>
+            <hr>
+            <div class="about-achievement flex animation">
+                <h2 class="text-effect">5+</h2>
+                <p>Helping In IT department</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="container flex" id="services">
+        <div class="container-title">
+            <h2>Services</h2>
+            <img src="./assets/cloud_no_background-removebg-preview.png alt="decoration">
+        </div>
+        <div class="grid-container">
+            <div class="services-format flex animation">
+                <h3>01</h3>
+                <h2 class="text-effect">Dont have any currently</h2>
+                <p>But I will one day</p>
+            </div>
+            <div class="services-format flex animation">
+                <h3>02</h3>
+                <h2 class="text-effect">Im available for work though</h2>
+                <p>Coming Soon!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- work -->
+    <main class="container flex" id="work">
+        <div class="container-title">
+            <h2>Portfolio</h2>
+            <img src="./assets/cloud_no_background-removebg-preview.png" alt="decoration">
+        </div>
+        <div class="grid-container">
+            <div>
+                <h4 class="work-name">Work Experience</h4>
+                <a href="https://emile7y7.github.io/My-Portfolio2/ target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/Work experience.png" alt="work ex" class="animation">
+                </a>
+            </div>
+            <div>
+                <h4 class="work-name">Things Ive Done</h4>
+                <a href="https://emile7y7.github.io/My-Portfolio2/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/Screenshot 2024-10-27 124110.png" alt="work ex 2" class="animation">
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- contact -->
+    <section class="container flex" id="contact">
+        <div class="container-title">
+            <h2>Contact</h2>
+            <img src="./assets/cloud_no_background-removebg-preview.png" alt="decoration">
+        </div>
+        <div class="contact-section flex">
+            <div class="contact-left flex">
+                <h2 class="text-effect">Talk to me</h2>
+                <p>Contact me about Myself or projects</p>
+                <div class="contact-details flex">
+                    <div class="contact-detail flex">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>emileedws@gmail.com</p>
+                    </div>
+                    <div class="contact-detail flex">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+447538559169</p>
+                    </div>
+                    <div class="contact-detail flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>UK</p>
+                    </div>
+                </div>
+            </div>
+            <form action="https://formsubmit.co/emileedws@gmail.com" method="POST" class="contact-right flex">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <label for="message">Enter a message</label>
+                <textarea name="message" id="message" placeholder="Leave a message"></textarea>
+            
+                <button type="submit" class="btn animation">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="flex">
+        <div class="footer-top flex">
+            <div class="footer-top-left">
+                <img src="./assets/logo.png" alt="logo">
+            </div>
+            <div class="footer-top-right">
+                <p>Thanks for Coming</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>©Emile Edwards. Student.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
