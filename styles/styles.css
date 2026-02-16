@@ -44,7 +44,7 @@ body {
     background: linear-gradient(267deg, #4274ba 1%, #0048e2 100%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #000000;
 }
 
 .container {
@@ -403,4 +403,5 @@ footer hr {
     .contact-section {
         flex-direction: column;
     }
+
 }
